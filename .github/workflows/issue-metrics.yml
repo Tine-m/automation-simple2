@@ -34,7 +34,7 @@ jobs:
       - name: Publish report as issue
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "Issue metrics report (${% raw %}{{ env.SINCE }}{% endraw %} → today)"
+          title: "Issue metrics report (${{ env.SINCE }} → $(date -u +'%Y-%m-%d'))"
           token: ${{ secrets.GITHUB_TOKEN }}
           content-filepath: ./issue_metrics.md
           labels: "team-metrics"
