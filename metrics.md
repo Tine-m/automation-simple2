@@ -1,6 +1,6 @@
 # Weekly Metrics
 
-- Opened: 14
-- Closed: 6
+- Opened: 5
+- Closed: 0
 
-Generated: 2025-09-10T06:19:02.153Z
+Generated: 2025-09-11T06:19:19.646Z
